@@ -1,0 +1,36 @@
+@mixin flexBox($justifyContent: false, $flex: false, $flexBasis: false, $flexGrow: false, $flexShrink: false, $flexDirection: false, $alignItems: false, $alignContent: false, $alignSelf: false, $flexWrap: false, $order: false ) {
+  display: flex;
+  @if $justifyContent != false {
+    justify-content: $justifyContent;
+  }
+  @if $flex != false {
+    flex: $flex;
+  }
+  @if $flexBasis != false {
+    flex-basis: $flexBasis;
+  }
+  @if $flexGrow != false {
+    flex-grow: $flexGrow;
+  }
+  @if $flexShrink != false {
+    flex-shrink: $flexShrink;
+  }
+  @if $flexDirection != false {
+    flex-direction: $flexDirection;
+  }
+  @if $alignItems != false {
+    align-items: $alignItems;
+  }
+  @if $alignContent != false {
+    align-content: $alignContent;
+  }
+  @if $alignSelf != false {
+    align-self: $alignSelf;
+  }
+  @if $flexWrap != false {
+    flex-wrap: $flexWrap;
+  }
+  @if $order != false {
+    order: $order;
+  }
+}
