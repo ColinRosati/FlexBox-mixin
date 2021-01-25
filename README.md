@@ -1,2 +1,4 @@
 # FlexBox-mixin
-ultimate flexBox mixin
+flexBox mixin
+
+@include flexBox(justifyContent: space-between)
